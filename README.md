@@ -104,11 +104,12 @@ Group_114_Hybrid_RAG/
 │       ├── chunking.py
 │       ├── text_cleaning.py
 │       └── io.py
-├── run_evaluation.py             # Main script to reproduce all results
-├── test_rag_pipeline.py          # Quick smoke-test (5 queries)
+├── README.md                    # Project overview, setup, and file mapping
+├── Report.pdf                    # Detailed project report
+├── SUBMISSION.pdf                # Submission guidelines and summary
 ├── requirements.txt
-├── REPORT.md
-└── README.md
+├── run_evaluation.py             # Main script to reproduce all results
+└── test_rag_pipeline.py          # Quick smoke-test (5 queries)
 ```
 
 ---
@@ -207,6 +208,15 @@ Standard metrics like MRR only measure retrieval quality, not answer quality. We
 | Hybrid (Dense + BM25 + RRF) | 0.80 | 0.93 |
 | Dense only | 0.85 | 0.93 |
 | Sparse only | 0.74 | 0.92 |
+
+---
+
+## Documents
+
+| Document | Description |
+|----------|-------------|
+| `Report.pdf` | Full project report — architecture, dataset, evaluation, results, error analysis |
+| `SUBMISSION.pdf` | Submission summary — covers all rubric points with file references |
 
 ---
 
